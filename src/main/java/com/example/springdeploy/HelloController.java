@@ -13,7 +13,7 @@ public class HelloController {
     @GetMapping("/hola")
     public String holaMundo(){
         System.out.println(message);
-        return "Hola mundo";
+        return "Hola mundo desde Railway";
     }
 
     @GetMapping("/bootstrap")
